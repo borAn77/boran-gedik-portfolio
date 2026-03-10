@@ -3,7 +3,7 @@
 
 
 ## 🔗 Live Site
-[boran77.github.io/portfolio](https://boran77.github.io/portfolio)
+https://boran77.github.io/boran-gedik-portfolio/
 
 ---
 
