@@ -1,6 +1,6 @@
 # Boran Gedik — Portfolio Website
 
-Personal portfolio website of Boran Gedik, a Software Developer and Computer Science student based in Wrocław, Poland.
+
 
 ## 🔗 Live Site
 [boran77.github.io/portfolio](https://boran77.github.io/portfolio)
