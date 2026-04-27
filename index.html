@@ -97,6 +97,13 @@ section{padding:6rem 3rem;max-width:1200px;margin:0 auto}
 .skill-list li{font-family:var(--mono);font-size:.82rem;color:var(--muted);padding:.35rem 0;display:flex;align-items:center;gap:.5rem;transition:color .2s}
 .skill-list li:hover{color:var(--text)}
 .skill-list li::before{content:'›';color:var(--accent);font-size:1rem}
+.media-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:1rem;align-items:start}
+.media-right{display:flex;flex-direction:column;gap:1rem}
+.media-img{width:100%;display:block;border-radius:8px;border:1px solid var(--border);object-fit:cover;transition:border-color .25s,transform .25s}
+.media-img:hover{border-color:var(--accent);transform:scale(1.01)}
+.media-stage{height:100%;max-height:520px;object-fit:cover}
+.media-team{height:240px}
+@media(max-width:900px){.media-grid{grid-template-columns:1fr}}
 .activity-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1rem}
 .activity-box{background:var(--surface);border:1px solid var(--border);padding:1.5rem;border-radius:6px;text-align:center;transition:border-color .25s,transform .25s}
 .activity-box:hover{border-color:var(--accent3);transform:translateY(-3px)}
@@ -257,6 +264,27 @@ footer{text-align:center;padding:2rem;font-family:var(--mono);font-size:.72rem;c
 
   <div class="projects-grid">
     <div class="project-card reveal">
+      <div style="display:inline-flex;align-items:center;gap:.5rem;font-family:var(--mono);font-size:.65rem;color:var(--accent3);background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.2);padding:.2rem .6rem;border-radius:2rem;margin-bottom:.75rem;letter-spacing:.08em;text-transform:uppercase">Hackathon Wroclaw 2026</div>
+      <div class="project-tag">// ml &middot; satellite &middot; fullstack &middot; water</div>
+      <div class="project-name">WaterShield</div>
+      <div class="project-desc">Real-time water pollution detection and forecasting system monitoring 102 European rivers across 32 countries. Detects pollution via Sentinel-2 satellite imagery (Copernicus), forecasts Water Quality Index 7&ndash;30 days ahead with XGBoost (RMSE&nbsp;11.9), and flags anomalies in live sensor data using IsolationForest. Built at Hackathon Wroclaw 2026.</div>
+      <div class="project-stack">
+        <span class="stack-pill">Next.js</span>
+        <span class="stack-pill">FastAPI</span>
+        <span class="stack-pill">Python</span>
+        <span class="stack-pill">XGBoost</span>
+        <span class="stack-pill">scikit-learn</span>
+        <span class="stack-pill">TypeScript</span>
+        <span class="stack-pill">MapLibre GL</span>
+        <span class="stack-pill">Copernicus</span>
+      </div>
+      <div class="project-links">
+        <a href="https://watershield.vercel.app" target="_blank" class="project-link">&#8599; Live Demo</a>
+        <a href="https://github.com/borAn77/Watershield---HACKATHON-2026" target="_blank" class="project-link">&#8979; GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
       <div class="project-tag">// 02 &mdash; automation &middot; scripting</div>
       <div class="project-name">PDF Invoice Automation</div>
       <div class="project-desc">A Python script that generates professional PDF invoices from structured input data &mdash; eliminating manual document editing. Uses Python PDF libraries to template and populate invoices programmatically, automating a common business workflow.</div>
@@ -339,6 +367,28 @@ footer{text-align:center;padding:2rem;font-family:var(--mono);font-size:.72rem;c
 
 <hr class="divider"/>
 
+<section id="media" style="max-width:1200px;margin:0 auto">
+  <div class="section-label reveal">in the room</div>
+  <h2 class="section-title reveal">CASSINI Hackathon Wroclaw 2026</h2>
+  <div class="media-grid reveal">
+    <img src="images/IMG_9929.PNG" alt="WaterShield on stage at CASSINI Hackathon Wroclaw 2026" class="media-img media-stage"/>
+    <div class="media-right">
+      <img src="images/IMG_3183.jpg" alt="WaterShield team at CASSINI Hackathon Wroclaw 2026" class="media-img media-team"/>
+      <img src="images/IMG_3184.jpg" alt="WaterShield team celebrating at CASSINI Hackathon Wroclaw 2026" class="media-img media-team"/>
+    </div>
+  </div>
+  <div class="reveal" style="margin-top:1.5rem">
+    <div class="section-label" style="margin-bottom:.6rem">project demo</div>
+    <div style="font-family:var(--mono);font-size:.82rem;color:var(--muted);margin-bottom:1rem">WaterShield &mdash; live demo from CASSINI Hackathon Wroclaw 2026</div>
+    <video controls style="width:100%;border-radius:8px;border:1px solid var(--border);background:#000;display:block">
+      <source src="images/0426.mov" type="video/mp4"/>
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+<hr class="divider"/>
+
 <section id="skills">
   <div class="section-label reveal">what i use</div>
   <h2 class="section-title reveal">Skills</h2>
@@ -353,7 +403,7 @@ footer{text-align:center;padding:2rem;font-family:var(--mono);font-size:.72rem;c
     </div>
     <div class="skill-group reveal">
       <div class="skill-group-title">Backend</div>
-      <ul class="skill-list"><li>REST APIs</li><li>Flask</li><li>FastAPI (learning)</li><li>Automation scripts</li><li>API integrations</li></ul>
+      <ul class="skill-list"><li>REST APIs</li><li>Flask</li><li>FastAPI</li><li>Automation scripts</li><li>API integrations</li><li>openEO / Copernicus</li></ul>
     </div>
     <div class="skill-group reveal">
       <div class="skill-group-title">Frontend &amp; Mobile</div>
@@ -362,6 +412,10 @@ footer{text-align:center;padding:2rem;font-family:var(--mono);font-size:.72rem;c
     <div class="skill-group reveal">
       <div class="skill-group-title">Tools</div>
       <ul class="skill-list"><li>Git &amp; GitHub</li><li>VS Code</li><li>Linux CLI</li><li>Cisco Packet Tracer</li></ul>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Data &amp; ML</div>
+      <ul class="skill-list"><li>pandas</li><li>scikit-learn</li><li>XGBoost</li><li>IsolationForest</li><li>Satellite data processing</li></ul>
     </div>
     <div class="skill-group reveal">
       <div class="skill-group-title">Interests</div>
