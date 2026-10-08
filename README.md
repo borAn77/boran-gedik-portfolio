@@ -9,7 +9,7 @@ https://boran77.github.io/boran-gedik-portfolio/
 
 ## About
 
-This is my personal portfolio website built to showcase my projects, skills, and background as a software developer. The site features a dark, moody aesthetic with smooth animations and a terminal-style hero section.
+This is my personal portfolio website built to showcase my projects, skills, and background as a software developer. The site features a dark, restrained aesthetic with a single lime accent, spotlight cards and a terminal-style hero.
 
 ## Sections
 
@@ -24,12 +24,12 @@ This is my personal portfolio website built to showcase my projects, skills, and
 - HTML5
 - CSS3 (custom properties, animations, grid)
 - Vanilla JavaScript
-- Google Fonts (Syne + DM Mono)
+- Google Fonts (Geist + Geist Mono)
 
 ## Features
 
 - Fully responsive (mobile, tablet, desktop)
-- Custom animated cursor
+- Spotlight card borders, scroll progress bar and active-section nav
 - Scroll-reveal animations
 - No frameworks, no dependencies — single file
 - Deployed via GitHub Pages
