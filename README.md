@@ -13,11 +13,13 @@ This is my personal portfolio website built to showcase my projects, skills, and
 
 ## Sections
 
-- **Hero** — Introduction with a live terminal card
-- **About** — Background, education, and stats
-- **Projects** — AI Lead Agent, PDF Invoice Automation, Dietitian Website, Log Analyzer
-- **Skills** — Languages, backend, frontend, tools, and interests
-- **Contact** — Email, GitHub, and LinkedIn
+- **Hero** — Headline, open-to-work line and CV download
+- **About** — Background and quick facts
+- **Projects** — WhyTired, Randezy, Macro Tracker iOS, AI Lead Generator, WaterShield, plus a smaller list of older projects
+- **Skills** — Grouped by level: strongest, databases, frontend/mobile, fundamentals, basic, tools, platforms
+- **Education** — BSc Computer Science and Cassini Hackathon 2026
+- **Languages** — Turkish (native), English (B2)
+- **Contact** — Email, GitHub, LinkedIn
 
 ## Built With
 
@@ -39,8 +41,8 @@ This is my personal portfolio website built to showcase my projects, skills, and
 No build step needed. Just open the file in your browser:
 
 ```bash
-git clone https://github.com/boran77/portfolio.git
-cd portfolio
+git clone https://github.com/borAn77/boran-gedik-portfolio.git
+cd boran-gedik-portfolio
 open index.html
 ```
 

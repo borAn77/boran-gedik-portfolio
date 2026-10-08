@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Boran Gedik — Software Developer</title>
-<meta name="description" content="Boran Gedik is a computer science student in Wroclaw building backend systems, automation tools and AI-powered applications. Open to internships and junior roles."/>
+<title>Boran Gedik — Backend &amp; Full-Stack Developer (CS student, Wrocław)</title>
+<meta name="description" content="Final-year Computer Science student in Wrocław. I build backend services, web apps and mobile apps in Python and TypeScript. Looking for an internship or entry-level software role."/>
 <meta name="theme-color" content="#0c0c0d"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Boran Gedik — Software Developer"/>
-<meta property="og:description" content="Backend, automation and AI tools. CS student at Coventry University Wroclaw. Open to internships and junior roles."/>
+<meta property="og:title" content="Boran Gedik — Backend &amp; Full-Stack Developer (CS student, Wrocław)"/>
+<meta property="og:description" content="Final-year CS student building backend services, web apps and mobile apps in Python and TypeScript. Looking for an internship or entry-level role."/>
 <meta property="og:url" content="https://boran77.github.io/boran-gedik-portfolio/"/>
 <meta property="og:image" content="https://boran77.github.io/boran-gedik-portfolio/images/IMG_3183.jpg"/>
 <meta name="twitter:card" content="summary_large_image"/>
@@ -178,18 +178,34 @@ section{padding:7rem 0 8rem}
 .lang{padding:2rem;border-radius:18px;background:var(--surface)}
 .lang h3{font-size:1.6rem;font-weight:650;letter-spacing:-.03em;margin-bottom:.3rem}
 .lang .lvl{font-family:var(--mono);font-size:.74rem;color:var(--accent);margin-bottom:1.6rem}
-.meter{display:grid;gap:.85rem;margin-bottom:1.6rem}
-.meter div{display:grid;grid-template-columns:5.5rem 1fr 3rem;gap:1rem;align-items:center;font-size:.86rem;color:var(--muted)}
-.meter i{display:block;height:4px;border-radius:2px;background:rgba(255,255,255,.07);position:relative;overflow:hidden}
-.meter i::after{content:'';position:absolute;inset:0;background:var(--accent);transform:scaleX(var(--v));transform-origin:left;transition:transform 1.2s var(--ease) .2s}
-.reveal:not(.visible) .meter i::after{transform:scaleX(0)}
-.meter span{font-family:var(--mono);font-size:.78rem;color:var(--text);text-align:right;font-variant-numeric:tabular-nums}
-.cert{margin-top:1.4rem;padding-top:1.4rem;border-top:1px solid var(--line);font-size:.86rem;color:var(--muted);line-height:1.6}
+.reveal:not(.visible) .cert{margin-top:1.4rem;padding-top:1.4rem;border-top:1px solid var(--line);font-size:.86rem;color:var(--muted);line-height:1.6}
 .cert b{display:block;color:var(--text);font-weight:500;margin-bottom:.15rem}
 .cert-img{display:block;margin-top:1rem;border-radius:10px;overflow:hidden;border:1px solid var(--line);position:relative}
 .cert-img img{width:100%;display:block;opacity:.85;transition:opacity .25s,transform .6s var(--ease)}
 .cert-img:hover img{opacity:1;transform:scale(1.02)}
 .lang-native p{color:var(--muted);font-size:.93rem}
+
+
+.open-line{font-size:.92rem;color:var(--muted);max-width:56ch;margin-bottom:2rem;padding-left:1rem;border-left:2px solid var(--accent);line-height:1.6;text-wrap:pretty}
+.open-line b{color:var(--text);font-weight:500}
+.mine{font-size:.9rem;color:var(--muted);line-height:1.6;margin-bottom:1.4rem;max-width:62ch}
+.mine b{color:var(--text);font-weight:500}
+.note{font-family:var(--mono);font-size:.72rem;color:var(--dim);margin-top:.8rem}
+.more{margin-top:1.5rem;font-size:.92rem;color:var(--muted)}
+.more .link{display:inline;color:var(--accent)}
+.sub-title{font-size:1.5rem;font-weight:650;letter-spacing:-.03em;margin:4rem 0 1.2rem}
+.other{list-style:none;display:grid;gap:.6rem}
+.other li{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;padding:1.2rem 1.5rem;border-radius:14px}
+.other b{font-weight:600;letter-spacing:-.01em}
+.other p{color:var(--muted);font-size:.9rem;margin:.15rem 0 .35rem;max-width:62ch}
+.other span:not(.two):not(.arrow){font-family:var(--mono);font-size:.7rem;color:var(--dim)}
+.other .two{display:flex;gap:1.2rem;flex-shrink:0}
+.other .link{flex-shrink:0}
+.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.edu-sub{color:var(--text);font-size:.95rem;margin:.2rem 0 .8rem}
+.edu-grid .lang p:last-child{color:var(--muted);font-size:.93rem}
+.edu-grid .lvl{margin-bottom:.9rem}
+.skill.half{grid-column:span 6}
 
 /* contact */
 #contact{padding-bottom:6rem}
@@ -199,6 +215,9 @@ section{padding:7rem 0 8rem}
 .contact-desc strong{color:var(--text);font-weight:500}
 .contact-email{display:inline-block;font-size:clamp(1.15rem,2.6vw,1.9rem);font-weight:500;letter-spacing:-.02em;color:var(--text);text-decoration:none;border-bottom:2px solid var(--accent);padding-bottom:.2rem;margin-bottom:2.5rem;transition:color .2s}
 .contact-email:hover{color:var(--accent)}
+.contact-phone{font-family:var(--mono);font-size:.9rem;margin:-1.75rem 0 2.5rem}
+.contact-phone a{color:var(--muted);text-decoration:none;transition:color .2s}
+.contact-phone a:hover{color:var(--accent)}
 .contact-row{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center}
 .where{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-left:.6rem}
 footer{border-top:1px solid var(--line);padding:2rem 0 2.5rem;font-family:var(--mono);font-size:.74rem;color:var(--dim);position:relative;z-index:var(--z-content)}
@@ -221,8 +240,8 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
   .featured-inner{grid-template-columns:1fr;gap:2rem}
   .about-text,.bento{grid-column:span 12}.about-text{padding-right:0}
   .c7,.c5,.c6,.card{grid-column:span 12}
-  .skill,.skill.wide{grid-column:span 6}
-  .media-grid,.lang-grid{grid-template-columns:1fr}
+  .skill,.skill.wide,.skill.half{grid-column:span 6}
+  .media-grid,.lang-grid,.edu-grid{grid-template-columns:1fr}
   .media-stage{aspect-ratio:4/3}
   .media-stack{grid-template-rows:none;grid-template-columns:1fr 1fr}
 }
@@ -236,10 +255,11 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
   .nav-links a{padding:.8rem 1rem;font-size:.95rem}
   .featured{padding:1.6rem}
   .card{padding:1.5rem}
-  .skill,.skill.wide{grid-column:span 12}
+  .skill,.skill.wide,.skill.half{grid-column:span 12}
   .media-stack{grid-template-columns:1fr}
-  .meter div{grid-template-columns:4.5rem 1fr 2.6rem;gap:.7rem}
-  .where{margin-left:0;width:100%}
+  .other li{flex-direction:column;align-items:flex-start;gap:.8rem}
+  .edu-grid{grid-template-columns:1fr}
+    .where{margin-left:0;width:100%}
   .hero-name .line2{margin-left:0}
 }
 @media(prefers-reduced-motion:reduce){
@@ -260,6 +280,7 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
     <li><a href="#about">About</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
     <li><a href="#languages">Languages</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -275,12 +296,14 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
     <div id="hero">
       <div class="hero-grid">
         <div>
-          <p class="status in" style="--d:0"><i></i>Open to internships &amp; junior roles</p>
+          <p class="status in" style="--d:0"><i></i>Open to work</p>
           <h1 class="hero-name in" style="--d:1">Boran<span class="line2">Gedik<span class="dot">.</span></span></h1>
-          <p class="hero-role in" style="--d:2">Software developer and CS student in Wroclaw, Poland.</p>
-          <p class="hero-desc in" style="--d:3">I build practical tools, automation systems and AI-powered applications, with a focus on backend work and turning ideas into systems that run.</p>
-          <div class="hero-cta in" style="--d:4">
-            <a href="#projects" class="btn btn-primary">View projects <span class="arrow" aria-hidden="true">&darr;</span></a>
+          <p class="hero-role in" style="--d:2">Computer Science student &middot; Backend &amp; Full-Stack Developer</p>
+          <p class="hero-desc in" style="--d:3">I'm a final-year CS student in Wrocław. I build backend services, web apps and mobile apps in Python and TypeScript, and I have used AI APIs in several projects. I'm looking for an internship or entry-level software role.</p>
+          <p class="open-line in" style="--d:4"><b>Open to work:</b> junior backend (Python, FastAPI), junior developer on LLM/AI APIs, full-stack (Python + React/TypeScript), React Native / Expo. Wrocław, remote or Turkey.</p>
+          <div class="hero-cta in" style="--d:5">
+            <a href="Boran_Gedik_CV.pdf" download class="btn btn-primary">Download CV <span class="arrow" aria-hidden="true">&darr;</span></a>
+            <a href="#projects" class="btn btn-ghost">View projects</a>
             <a href="https://github.com/borAn77" target="_blank" rel="noopener" class="btn btn-ghost">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
           </div>
         </div>
@@ -292,10 +315,11 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
             <div>&nbsp;</div>
             <div>{</div>
             <div>&nbsp;&nbsp;"name": <span class="t-v">"Boran Gedik"</span>,</div>
-            <div>&nbsp;&nbsp;"role": <span class="t-v">"Software Developer"</span>,</div>
-            <div>&nbsp;&nbsp;"location": <span class="t-v">"Wroclaw, Poland"</span>,</div>
-            <div>&nbsp;&nbsp;"focus": <span class="t-v">"backend &amp; automation"</span>,</div>
+            <div>&nbsp;&nbsp;"role": <span class="t-v">"Backend &amp; Full-Stack"</span>,</div>
+            <div>&nbsp;&nbsp;"location": <span class="t-v">"Wrocław, Poland"</span>,</div>
+            <div>&nbsp;&nbsp;"stack": <span class="t-v">"FastAPI, React, Expo"</span>,</div>
             <div>&nbsp;&nbsp;"main_lang": <span class="t-v">"Python"</span>,</div>
+            <div>&nbsp;&nbsp;"open_to": <span class="t-v">"internship / entry-level"</span>,</div>
             <div>&nbsp;&nbsp;"available": <span class="t-p">true</span></div>
             <div>}</div>
             <div>&nbsp;</div>
@@ -315,16 +339,16 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
     <h2 class="section-title reveal">Learning by building, <em>not by watching.</em></h2>
     <div class="about-grid">
       <div class="about-text reveal">
-        <p>I'm <strong>Boran Gedik</strong>, a Computer Science student at <strong>Coventry University Wroclaw</strong>.</p>
-        <p>I started programming because I wanted to build real products and understand how technology works behind the scenes. Since then I've favoured projects over pure theory.</p>
-        <p>Over the past year I've built more than <strong>15 programming projects</strong>, improving my skills in backend development and automation.</p>
-        <p>My main language is <strong>Python</strong>, with JavaScript and web technologies alongside it. I'm most interested in <strong>backend architecture</strong>, automation workflows and AI-powered tools. The long-term goal is to become a strong software engineer and build technology products that scale.</p>
+        <p>I'm <strong>Boran Gedik</strong>, a third-year BSc Computer Science student at <strong>Coventry University Wrocław</strong>. I graduate in May 2027.</p>
+        <p>My main language is <strong>Python</strong>, and FastAPI is the backend framework I use. On the front end I work with React, Next.js and React Native (Expo).</p>
+        <p>I learn by building, so most of what I know comes from projects: a booking platform, a health assistant, a satellite-data backend for a hackathon, and a few smaller tools. Several of them call AI APIs.</p>
+        <p>I'm looking for an internship or entry-level role before I graduate. I'm based in Wrocław, and I'm open to Poland, remote work and Turkey.</p>
       </div>
       <div class="bento reveal" style="--d:2">
-        <div class="tile"><div class="tile-num">15+</div><div class="tile-label">projects built</div></div>
-        <div class="tile"><div class="tile-num">10+</div><div class="tile-label">months coding</div></div>
+        <div class="tile"><div class="tile-num">3rd</div><div class="tile-label">year, final year of BSc CS</div></div>
+        <div class="tile"><div class="tile-num">2027</div><div class="tile-label">graduating in May</div></div>
         <div class="tile"><div class="tile-num">Py</div><div class="tile-label">main language</div></div>
-        <div class="tile"><div class="tile-num">CS</div><div class="tile-label">currently studying</div></div>
+        <div class="tile"><div class="tile-num">TR / EN</div><div class="tile-label">native Turkish, fluent English</div></div>
       </div>
     </div>
   </div>
@@ -333,39 +357,38 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
 <section id="projects">
   <div class="wrap">
     <p class="eyebrow reveal">Selected work</p>
-    <h2 class="section-title reveal">Things I've shipped, <em>and one I demoed on stage.</em></h2>
+    <h2 class="section-title reveal">Five projects <em>I would start with.</em></h2>
 
     <article class="featured spot reveal">
       <div class="featured-inner">
         <div class="featured-left">
-          <span class="flag">Featured</span>
-          <p class="tag">Automation &middot; AI &middot; Python</p>
-          <h3 class="featured-name">AI Lead Agent</h3>
-          <p class="featured-desc">A Python lead-generation tool that collects business data from external APIs and organises it into structured lead lists for sales outreach. Built as a prototype SaaS-style automation product with Python and Streamlit.</p>
+          <span class="flag">HackYeah 2026 &middot; Sport &amp; Healthcare</span>
+          <p class="tag">Team of 2 &middot; Python &middot; React</p>
+          <h3 class="featured-name">WhyTired</h3>
+          <p class="featured-desc">A health and training assistant for students who train often and feel tired without knowing why. A daily check-in gives a hard, easy or rest recommendation.</p>
           <ul class="checks">
-            <li>Pulls company names, websites and contact details from external APIs</li>
-            <li>Cleans and structures raw API data into exportable lead lists</li>
-            <li>Streamlit UI so non-technical users can run queries without code</li>
-            <li>Designed around real business workflows, not just a demo</li>
+            <li>"Detective mode" ranks likely causes from the user's own data, with confidence levels</li>
+            <li>Suggests a 7-day experiment to test the most likely cause</li>
+            <li>Prepares a one-page summary in Polish for the family doctor</li>
+            <li>All data in the demo is synthetic</li>
           </ul>
-          <div class="pills">
-            <span class="pill">Python</span><span class="pill">Streamlit</span><span class="pill">API integrations</span><span class="pill">Data processing</span><span class="pill">Automation</span>
+          <div class="pills"><span class="pill">Python</span><span class="pill">FastAPI</span><span class="pill">React</span><span class="pill">TypeScript</span><span class="pill">Tailwind</span></div>
+          <p class="mine"><b>What I did:</b> the backend rule engine, the frontend and the deployment. My teammate Berken built the AI/LLM layer and wrote the Polish copy.</p>
+          <div class="links" style="border:0;padding:0;margin-top:1.2rem">
+            <a href="https://whytired-vnvu.onrender.com" target="_blank" rel="noopener" class="link">Live demo <span class="arrow" aria-hidden="true">&nearr;</span></a>
+            <a href="https://github.com/borAn77/WhyTired" target="_blank" rel="noopener" class="link quiet">GitHub</a>
           </div>
-          <a href="https://github.com/borAn77/ai-lead-generator" target="_blank" rel="noopener" class="link">View on GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
+          <p class="note">The demo runs on a free server, so it can take up to a minute to wake up. Start with "Take the 2-min tour"; desktop Chrome works best.</p>
         </div>
         <div class="featured-right">
           <div class="arch">
             <p class="arch-title">// how it works</p>
             <ol>
-              <li><b>01</b>User enters a search query in the Streamlit UI</li>
-              <li><b>02</b>Python queries external business APIs</li>
-              <li><b>03</b>Raw data is parsed and structured into records</li>
-              <li><b>04</b>Lead list is exported as structured output</li>
+              <li><b>01</b>Daily check-in</li>
+              <li><b>02</b>Rule engine returns a hard / easy / rest recommendation</li>
+              <li><b>03</b>Detective mode ranks likely causes with confidence levels</li>
+              <li><b>04</b>7-day experiment and a Polish one-page summary for the doctor</li>
             </ol>
-          </div>
-          <div class="arch">
-            <p class="arch-title">// key concepts</p>
-            <div class="pills"><span class="pill">REST API consumption</span><span class="pill">Data structuring</span><span class="pill">Business automation</span><span class="pill">Streamlit UI</span></div>
           </div>
         </div>
       </div>
@@ -373,87 +396,77 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
 
     <div class="projects">
       <article class="card c7 spot reveal">
-        <span class="event">CASSINI Hackathon Wroclaw 2026</span>
-        <p class="tag">ML &middot; Satellite &middot; Full-stack</p>
-        <h3 class="card-name">WaterShield</h3>
-        <p class="card-desc">Real-time water pollution detection and forecasting across 102 European rivers in 32 countries. It detects pollution from Sentinel-2 satellite imagery (Copernicus), forecasts the Water Quality Index 7&ndash;30 days ahead with XGBoost (RMSE&nbsp;11.9), and flags anomalies in live sensor data with IsolationForest.</p>
-        <div class="pills"><span class="pill">Next.js</span><span class="pill">FastAPI</span><span class="pill">Python</span><span class="pill">XGBoost</span><span class="pill">scikit-learn</span><span class="pill">TypeScript</span><span class="pill">MapLibre GL</span><span class="pill">Copernicus</span></div>
+        <p class="tag">Web &middot; Mobile &middot; Portfolio project</p>
+        <h3 class="card-name">Randezy</h3>
+        <p class="card-desc">A booking platform for salons and barbers. A Next.js web app for customers and business owners, plus an iOS/Android business app built with Expo / React Native: calendar, finance reports, campaigns, staff login, push notifications and Sign in with Apple. Both apps share one Supabase PostgreSQL database with Row Level Security. FastAPI backend, Stripe payments. The mobile app's interface is in Turkish.</p>
+        <div class="pills"><span class="pill">React Native (Expo)</span><span class="pill">TypeScript</span><span class="pill">Next.js</span><span class="pill">FastAPI</span><span class="pill">Supabase</span><span class="pill">Stripe</span></div>
+        <p class="mine"><b>Status:</b> finished as a portfolio project, not an active product. The mobile app was built and uploaded to TestFlight. It is not on the App Store.</p>
         <div class="links">
-          <a href="https://watershield.vercel.app" target="_blank" rel="noopener" class="link">Live demo <span class="arrow" aria-hidden="true">&nearr;</span></a>
-          <a href="https://github.com/borAn77/Watershield---HACKATHON-2026" target="_blank" rel="noopener" class="link quiet">GitHub</a>
+          <a href="https://github.com/borAn77/randezy" target="_blank" rel="noopener" class="link">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
         </div>
       </article>
 
       <article class="card c5 spot reveal" style="--d:1">
-        <p class="tag">Algorithms &middot; React &middot; Live demo</p>
-        <h3 class="card-name">Pathfinding Visualizer</h3>
-        <p class="card-desc">Watch six pathfinding algorithms run in real time: Dijkstra, A*, BFS, DFS, Greedy and Bidirectional BFS. Includes maze generation, weighted nodes, draggable start and end points, and a complexity panel. A custom MinHeap gives true O(log n) operations.</p>
-        <div class="pills"><span class="pill">React 18</span><span class="pill">JavaScript</span><span class="pill">Algorithms</span><span class="pill">CSS animations</span><span class="pill">Vercel</span></div>
-        <div class="links">
-          <a href="https://pathfinding-visualizer-eta-eight.vercel.app" target="_blank" rel="noopener" class="link">Live demo <span class="arrow" aria-hidden="true">&nearr;</span></a>
-          <a href="https://github.com/borAn77/pathfinding-visualizer" target="_blank" rel="noopener" class="link quiet">GitHub</a>
-        </div>
-      </article>
-
-      <article class="card c5 spot reveal">
-        <p class="tag">Web &middot; Real client</p>
-        <h3 class="card-name">Dietitian Website</h3>
-        <p class="card-desc">A responsive website for a certified nutrition expert, in active use by a real professional. It has a working contact form with direct email delivery, service pages and a clean layout built from scratch without frameworks.</p>
-        <div class="pills"><span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">Email integration</span></div>
-        <div class="links">
-          <a href="https://boran77.github.io/Dietititan_Website/" target="_blank" rel="noopener" class="link">Live site <span class="arrow" aria-hidden="true">&nearr;</span></a>
-          <a href="https://github.com/borAn77/Dietititan_Website" target="_blank" rel="noopener" class="link quiet">GitHub</a>
-        </div>
-      </article>
-
-      <article class="card c7 spot reveal" style="--d:1">
         <p class="tag">Mobile &middot; AI &middot; iOS</p>
-        <h3 class="card-name">Macro Tracker</h3>
-        <p class="card-desc">A personal iOS app for tracking daily macros and calories. Point the camera at any food and get a nutritional breakdown from GPT-4o vision. Entries persist locally between sessions with AsyncStorage.</p>
-        <div class="pills"><span class="pill">React Native</span><span class="pill">Expo</span><span class="pill">TypeScript</span><span class="pill">GPT-4o Vision</span><span class="pill">AsyncStorage</span></div>
+        <h3 class="card-name">Macro Tracker iOS</h3>
+        <p class="card-desc">A calorie and macro tracker. GPT-4o vision reads a photo of a meal and returns its nutritional values.</p>
+        <div class="pills"><span class="pill">TypeScript</span><span class="pill">Expo</span><span class="pill">React Native</span><span class="pill">GPT-4o</span></div>
+        <p class="mine"><b>Status:</b> not on the App Store.</p>
         <div class="links">
           <a href="https://github.com/borAn77/macro-tracker-ios" target="_blank" rel="noopener" class="link">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
         </div>
       </article>
 
-      <article class="card c6 spot reveal">
-        <p class="tag">Automation &middot; Scripting</p>
-        <h3 class="card-name">PDF Invoice Automation</h3>
-        <p class="card-desc">A Python script that generates professional PDF invoices from structured input data, removing manual document editing. It templates and fills invoices programmatically with Python PDF libraries.</p>
-        <div class="pills"><span class="pill">Python</span><span class="pill">PDF generation</span><span class="pill">File automation</span></div>
+      <article class="card c5 spot reveal">
+        <p class="tag">Automation &middot; AI &middot; Python</p>
+        <h3 class="card-name">AI Lead Generator</h3>
+        <p class="card-desc">A B2B lead generation system that finds businesses, verifies their emails and produces leads ready for outreach.</p>
+        <div class="pills"><span class="pill">Python</span><span class="pill">FastAPI</span><span class="pill">OpenAI API</span></div>
         <div class="links">
-          <a href="https://github.com/borAn77/python-pdf-invoice-automation" target="_blank" rel="noopener" class="link">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
+          <a href="https://github.com/borAn77/ai-lead-generator" target="_blank" rel="noopener" class="link">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
         </div>
       </article>
 
-      <article class="card c6 spot reveal" style="--d:1">
-        <p class="tag">Systems &middot; C++</p>
-        <h3 class="card-name">Log Analyzer</h3>
-        <p class="card-desc">A C++ command-line tool that reads system log files, parses entries, and surfaces error patterns and activity trends. Covers file I/O, string processing and systems-level programming, with no external libraries.</p>
-        <div class="pills"><span class="pill">C++</span><span class="pill">File I/O</span><span class="pill">CLI</span><span class="pill">Systems programming</span></div>
+      <article class="card c7 spot reveal" style="--d:1">
+        <span class="event">Cassini Hackathon 2026 &middot; Wrocław &middot; Apr 24&ndash;26</span>
+        <p class="tag">Backend &middot; Satellite data &middot; Water quality</p>
+        <h3 class="card-name">WaterShield</h3>
+        <p class="card-desc">A system that monitors EU river water quality using Sentinel-2 satellite imagery. A data pipeline processes the imagery, AI anomaly detection triggers risk alerts, and a compliance module produces EU Water Framework Directive reports. Time-series data lives in a Supabase / PostgreSQL schema, and REST APIs serve the frontend.</p>
+        <div class="pills"><span class="pill">Python</span><span class="pill">FastAPI</span><span class="pill">Supabase</span><span class="pill">PostgreSQL</span><span class="pill">Sentinel-2</span></div>
+        <p class="mine"><b>What I did:</b> I was the sole backend developer and built the whole server side with FastAPI in 48 hours: the pipeline, anomaly detection, database schema, REST APIs and the compliance report module.</p>
         <div class="links">
-          <a href="https://github.com/borAn77/cpp-log-analyzer" target="_blank" rel="noopener" class="link">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
+          <a href="https://watershield.vercel.app" target="_blank" rel="noopener" class="link">Live demo <span class="arrow" aria-hidden="true">&nearr;</span></a>
+          <a href="https://github.com/borAn77/Watershield---HACKATHON-2026" target="_blank" rel="noopener" class="link quiet">GitHub</a>
         </div>
       </article>
     </div>
+
+    <h3 class="sub-title reveal">Other projects</h3>
+    <ul class="other reveal">
+      <li class="spot"><div><b>PDF Invoice Automation</b><p>Reads invoice PDFs, extracts key fields such as invoice number, date and total, and writes them to CSV.</p><span>Python &middot; PyPDF2 &middot; pandas</span></div><a class="link" href="https://github.com/borAn77/python-pdf-invoice-automation" target="_blank" rel="noopener">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a></li>
+      <li class="spot"><div><b>Dietitian Website</b><p>A responsive site I built for my brother, a dietitian, with a contact form that sends email. Built without frameworks.</p><span>HTML &middot; CSS &middot; JavaScript</span></div><span class="two"><a class="link" href="https://boran77.github.io/Dietititan_Website/" target="_blank" rel="noopener">Live site <span class="arrow" aria-hidden="true">&nearr;</span></a><a class="link quiet" href="https://github.com/borAn77/Dietititan_Website" target="_blank" rel="noopener">GitHub</a></span></li>
+      <li class="spot"><div><b>C++ Log Analyzer</b><p>Command-line tool that reads a log file and counts INFO, WARNING and ERROR messages.</p><span>C++ &middot; File I/O &middot; CLI</span></div><a class="link" href="https://github.com/borAn77/cpp-log-analyzer" target="_blank" rel="noopener">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a></li>
+      <li class="spot"><div><b>Pathfinding Visualizer</b><p>Runs six pathfinding algorithms step by step, with maze generation and weighted nodes.</p><span>React &middot; JavaScript &middot; Algorithms</span></div><span class="two"><a class="link" href="https://pathfinding-visualizer-eta-eight.vercel.app" target="_blank" rel="noopener">Live demo <span class="arrow" aria-hidden="true">&nearr;</span></a><a class="link quiet" href="https://github.com/borAn77/pathfinding-visualizer" target="_blank" rel="noopener">GitHub</a></span></li>
+    </ul>
+    <p class="more reveal">Smaller repos, such as Python automation scripts, a Cisco Packet Tracer network lab and a few games, are on <a class="link" href="https://github.com/borAn77?tab=repositories" target="_blank" rel="noopener">my GitHub</a>.</p>
   </div>
 </section>
 
 <section id="media">
   <div class="wrap">
     <p class="eyebrow reveal">In the room</p>
-    <h2 class="section-title reveal">CASSINI Hackathon <em>Wroclaw 2026</em></h2>
+    <h2 class="section-title reveal">Cassini Hackathon <em>Wrocław 2026</em></h2>
     <div class="media-grid">
       <figure class="media-fig media-stage reveal">
-        <img src="images/IMG_9929.PNG" alt="WaterShield presented on stage at CASSINI Hackathon Wroclaw 2026" loading="lazy" decoding="async"/>
+        <img src="images/IMG_9929.PNG" alt="WaterShield presented on stage at Cassini Hackathon Wrocław 2026" loading="lazy" decoding="async"/>
       </figure>
       <div class="media-stack">
-        <figure class="media-fig reveal" style="--d:1"><img src="images/IMG_3183.jpg" alt="The WaterShield team at CASSINI Hackathon Wroclaw 2026" loading="lazy" decoding="async"/></figure>
-        <figure class="media-fig reveal" style="--d:2"><img src="images/IMG_3184.jpg" alt="The WaterShield team celebrating at CASSINI Hackathon Wroclaw 2026" loading="lazy" decoding="async"/></figure>
+        <figure class="media-fig reveal" style="--d:1"><img src="images/IMG_3183.jpg" alt="The WaterShield team at Cassini Hackathon Wrocław 2026" loading="lazy" decoding="async"/></figure>
+        <figure class="media-fig reveal" style="--d:2"><img src="images/IMG_3184.jpg" alt="The WaterShield team celebrating at Cassini Hackathon Wrocław 2026" loading="lazy" decoding="async"/></figure>
       </div>
     </div>
     <div class="video-block spot reveal">
-      <div class="video-cap"><b>WaterShield live demo</b><span>Recorded at CASSINI Hackathon Wroclaw 2026</span></div>
+      <div class="video-cap"><b>WaterShield live demo</b><span>Recorded at Cassini Hackathon Wrocław 2026</span></div>
       <video controls preload="metadata" playsinline>
         <source src="images/0426.mov" type="video/mp4"/>
         Your browser does not support the video tag.
@@ -467,13 +480,34 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
     <p class="eyebrow reveal">What I use</p>
     <h2 class="section-title reveal">Skills <em>and tools.</em></h2>
     <div class="skills">
-      <div class="skill reveal"><h3>// languages</h3><ul><li>Python</li><li>JavaScript</li><li>C++</li></ul></div>
-      <div class="skill wide reveal" style="--d:1"><h3>// backend</h3><ul><li>REST APIs</li><li>Flask</li><li>FastAPI</li><li>Automation scripts</li><li>API integrations</li><li>openEO / Copernicus</li></ul></div>
-      <div class="skill wide reveal"><h3>// frontend &amp; mobile</h3><ul><li>HTML &amp; CSS</li><li>JavaScript</li><li>TypeScript</li><li>React Native</li><li>Expo</li><li>Tailwind CSS</li></ul></div>
-      <div class="skill reveal" style="--d:1"><h3>// cs fundamentals</h3><ul><li>Object-oriented programming</li><li>Algorithms &amp; data structures</li><li>Problem solving</li></ul></div>
-      <div class="skill reveal"><h3>// tools</h3><ul><li>Git &amp; GitHub</li><li>VS Code</li><li>Linux CLI</li><li>Cisco Packet Tracer</li></ul></div>
-      <div class="skill wide reveal" style="--d:1"><h3>// data &amp; ml</h3><ul><li>pandas</li><li>scikit-learn</li><li>XGBoost</li><li>IsolationForest</li><li>Satellite data processing</li></ul></div>
-      <div class="skill wide reveal"><h3>// interests</h3><ul><li>Backend development</li><li>Automation systems</li><li>AI tools</li><li>Developer tooling</li><li>Software products</li></ul></div>
+      <div class="skill half reveal"><h3>// strongest</h3><ul><li>Python</li><li>FastAPI</li></ul></div>
+      <div class="skill half reveal" style="--d:1"><h3>// databases</h3><ul><li>PostgreSQL</li><li>Supabase</li></ul></div>
+      <div class="skill wide reveal"><h3>// frontend &amp; mobile</h3><ul><li>HTML</li><li>CSS</li><li>React</li><li>Next.js</li><li>React Native (Expo)</li><li>Tailwind</li></ul></div>
+      <div class="skill  reveal" style="--d:1"><h3>// platforms</h3><ul><li>Windows</li><li>Linux</li><li>macOS</li></ul></div>
+      <div class="skill  reveal"><h3>// fundamentals level</h3><ul><li>C++</li><li>SQL</li></ul></div>
+      <div class="skill  reveal" style="--d:1"><h3>// basic level</h3><ul><li>JavaScript</li><li>TypeScript</li></ul></div>
+      <div class="skill  reveal" style="--d:2"><h3>// tools</h3><ul><li>Git</li><li>GitHub</li><li>Docker</li><li>JWT auth</li><li>OpenAI API</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <p class="eyebrow reveal">Background</p>
+    <h2 class="section-title reveal">Education <em>and experience.</em></h2>
+    <div class="edu-grid">
+      <div class="lang spot reveal">
+        <p class="lvl">Sep 2024 &ndash; May 2027 (expected)</p>
+        <h3>BSc Computer Science</h3>
+        <p class="edu-sub">Coventry University Wrocław &middot; 3rd (final) year</p>
+        <p>Coursework: algorithms &amp; data structures, software engineering, databases, operating systems.</p>
+      </div>
+      <div class="lang spot reveal" style="--d:1">
+        <p class="lvl">Apr 24&ndash;26, 2026</p>
+        <h3>Backend Developer</h3>
+        <p class="edu-sub">Cassini Hackathon 2026 &middot; Wrocław</p>
+        <p>Sole backend developer on WaterShield. Built the full FastAPI server side in 48 hours.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -485,17 +519,10 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
     <div class="lang-grid">
       <div class="lang spot reveal">
         <h3>English</h3>
-        <p class="lvl">B2 &middot; certified</p>
-        <div class="meter">
-          <div><label>Listening</label><i style="--v:.90"></i><span>90%</span></div>
-          <div><label>Reading</label><i style="--v:.80"></i><span>80%</span></div>
-          <div><label>Writing</label><i style="--v:1"></i><span>100%</span></div>
-          <div><label>Speaking</label><i style="--v:.93"></i><span>93%</span></div>
-          <div><label>Overall</label><i style="--v:.81"></i><span>81%</span></div>
-        </div>
+        <p class="lvl">Fluent &middot; B2 certificate</p>
         <div class="cert">
           <b>B2 Certificate</b>
-          Wroclaw University of Science and Technology &middot; Score 4.5/5 &middot; June 2024
+          Wroclaw University of Science and Technology &middot; June 2024
           <a class="cert-img" href="images/b2-certificate.jpg" target="_blank" rel="noopener" aria-label="Open the B2 English certificate in a new tab">
             <img src="images/b2-certificate.jpg" alt="B2 English certificate from Wroclaw University of Science and Technology" loading="lazy" decoding="async"/>
           </a>
@@ -504,7 +531,7 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
       <div class="lang lang-native spot reveal" style="--d:1">
         <h3>Turkish</h3>
         <p class="lvl">Native</p>
-        <p>Mother tongue, full professional proficiency.</p>
+        <p>Mother tongue.</p>
       </div>
     </div>
   </div>
@@ -515,12 +542,14 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
     <div class="contact-card spot reveal">
       <p class="eyebrow">Contact</p>
       <h2 class="contact-title">Let's build something.</h2>
-      <p class="contact-desc">I'm open to <strong>internships, junior developer roles and technical collaborations.</strong> Send a message and I'll reply.</p>
+      <p class="contact-desc">I'm looking for an <strong>internship or entry-level software role</strong> in Poland (Wrocław), remote, or Turkey. Send me a message.</p>
       <a href="mailto:borangedik123@gmail.com" class="contact-email">borangedik123@gmail.com</a>
+      <p class="contact-phone"><a href="tel:+48571428257">+48 571 428 257</a></p>
       <div class="contact-row">
-        <a href="https://github.com/borAn77" target="_blank" rel="noopener" class="btn btn-primary">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
+        <a href="Boran_Gedik_CV.pdf" download class="btn btn-primary">Download CV <span class="arrow" aria-hidden="true">&darr;</span></a>
+        <a href="https://github.com/borAn77" target="_blank" rel="noopener" class="btn btn-ghost">GitHub <span class="arrow" aria-hidden="true">&nearr;</span></a>
         <a href="https://www.linkedin.com/in/boran-gedik-5ba761263/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn <span class="arrow" aria-hidden="true">&nearr;</span></a>
-        <span class="where">Wroclaw, Poland</span>
+        <span class="where">Wrocław, Poland</span>
       </div>
     </div>
   </div>
@@ -530,7 +559,7 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--acce
 
 <footer>
   <div class="wrap">
-    <span>&copy; 2026 Boran Gedik</span>
+    <span>&copy; 2026 Boran Gedik &middot; Last updated October 2026</span>
     <a href="#home">Back to top &uarr;</a>
   </div>
 </footer>
